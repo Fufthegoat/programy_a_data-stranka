@@ -1,0 +1,138 @@
+/* Resetování základních stylů */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Globální styl pro stránku */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Hlavička */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Odkaz na úvodní stránku v hlavičce */
+.home-link-header {
+    margin-bottom: 15px; /* Odsazení pod odkazem */
+    text-align: left; /* Zarovnání odkazu vlevo */
+}
+
+.home-link-header a {
+    font-size: 1.2em; /* Zvětšení textu odkazu */
+    color: rgb(0, 102, 204); /* Modrá barva textu */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f0f0f0; /* Světle šedé pozadí */
+    padding: 8px 12px; /* Vnitřní odsazení */
+    border-radius: 5px; /* Zaoblení rohů */
+    display: inline-block; /* Lepší vzhled při odsazení */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Přidání stínu */
+}
+
+.home-link-header a:hover {
+    background-color: #d9d9d9; /* Tmavší šedá při najetí */
+    color: #ff6600; /* Oranžová barva textu při najetí */
+    text-decoration: underline;
+}
+
+
+/* Hlavní obsah */
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+/* Seznamy a odkazy */
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pěkné zobrazení kódu */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5f5f5;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+footer img {
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+}
+
+/* Responzivita pro menší obrazovky */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
